@@ -6,7 +6,7 @@ import "./Style.css";
 function App() {
  return (
   <DaataContextProvider>
-   <div>
+   <div className="container">
     <SideNav />
     <main>
      <Header />
