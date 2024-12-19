@@ -69,6 +69,12 @@ ul {
  background: var(--color-5);
 }
 
+@keyframes spin {
+ to {
+  transform: rotate(360deg);
+ }
+}
+
 .container {
  display: grid;
  padding: var(--gap);
